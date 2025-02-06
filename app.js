@@ -2,7 +2,7 @@ const darkModeToggle = document.getElementById("darkModeToggle");
 const body = document.body;
 document.getElementById(
   "footerText"
-).innerHTML = `Copyright &copy;${new Date().getFullYear()} &nbsp; Hardik Desai`;
+).innerHTML = `Copyright &copy;${new Date().getFullYear()} &nbsp; Made in educational purposes`;
 // Function to toggle dark mode based on user preference
 function toggleDarkMode() {
   if (darkModeToggle.checked) {
